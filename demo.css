@@ -1,0 +1,91 @@
+/* --- body --- */
+
+.skin {
+    background-color: #a7a5aa;
+    border: 5px solid #000000;
+}
+
+/* --- head --- */
+
+#wholeHead {
+	position: absolute;
+	top: -15px;
+}
+
+#mainHead {
+	width: 80px;
+	height: 35px;
+	border-bottom-right-radius: 15px;
+	border-border-left-radius: 15px;
+	position: absolute;
+	z-index: 20;
+	top: 48px;
+	left: 60px;
+}
+
+.ear {
+	width:  30px;
+    height: 20px;
+    position: absolute;
+    z-index: 21;
+    left: 65px;
+    top: 28px;
+    border-bottom: none;
+    border-top-right-radius: 25px;
+}
+
+.rightEar {
+    border-top-right-radius: 0;
+    border-top-left-radius: 25px;
+    left: 106px;
+}
+
+.eye {
+    width: 5px;
+    height:5px;
+    background-color: #fff;
+    position: absolute;
+    top:4px;
+    left: 17px;
+    z-index: 22;
+    border-right: 5px solid #000;
+    border-bottom: 5px solid #000;
+}
+
+.rightEye {
+    left: 56px;
+}
+
+.nose {
+    width:5px;
+    height: 5px;
+    background-color:#000;
+    position:absolute;
+    top:9px;
+    left: 45px;
+}
+
+.chick {
+    width: 10px;
+    height: 10px;
+    background-color: #f7a4a3;
+    position: absolute;
+    top: 15px;
+    left: 5px;
+}
+
+.rightChick {
+    left: 70px;
+}
+
+.mouth {
+    position: absolute;
+    -moz-transform: scale(2, 0.7) rotate(-90deg);
+    -webkit-transform: scale(2, 0.7) rotate(-90deg);
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+    top:9px;
+    left:37px;
+    color: #000;
+}
